@@ -48,17 +48,4 @@ body {
     .playlist img, .single-playlist .playlist img {
         width: 75%;
     }
-
-    .roadmix-playlist {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .roadmix-playlist .col-9 {
-        order: 1
-    }
-    
-    .roadmix-playlist .col-3 {
-        order: 2
-    }
 }
