@@ -1,0 +1,64 @@
+* {
+    color: #fff;
+}
+
+body {
+    background: #303030;
+}
+
+.logo {
+    width: 20em;
+}
+
+.centered {
+    text-align: center;
+}
+
+.row {
+    background: #252525;
+}
+
+.right {
+    text-align: right; 
+    background: #353535;
+}
+
+.playlist img {
+    width: 100%;
+}
+
+.single-playlist {
+    display: flex;
+    align-items: center;
+}
+
+.single-playlist .playlist img {
+    width: 50%;
+}
+
+.last {
+    padding: 25px 0;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .row {
+        text-align: center;
+    }
+
+    .playlist img, .single-playlist .playlist img {
+        width: 75%;
+    }
+
+    .roadmix-playlist {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .roadmix-playlist .col-9 {
+        order: 1
+    }
+    
+    .roadmix-playlist .col-3 {
+        order: 2
+    }
+}
